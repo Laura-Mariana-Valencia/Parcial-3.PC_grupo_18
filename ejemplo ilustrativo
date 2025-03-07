@@ -1,0 +1,8 @@
+def factorial(n):
+    resultado = 1  # Inicialización de la variable de estado
+    for i in range(1, n + 1):  # Bucle iterativo
+        resultado *= i  # Modificación del estado
+    return resultado  # Resultado final
+
+# Uso
+print(factorial(5))  # Imprime 120
